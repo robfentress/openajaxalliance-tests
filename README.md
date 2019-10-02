@@ -1,0 +1,2 @@
+# OpenAjax Alliance Test Suite
+Taken from [original location on SourceForge](https://sourceforge.net/p/openajaxallianc/code/HEAD/tree/accessrules/version-2/trunk/testsuite/rules/).  Do not take this as canonical.  This will eventually be on GiHub under a different official account.  I just needed something here for my own purposes.
