@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Table Rule 1: Table D: Simple Table is 4x4 data table with some headers</title>
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-8">
+</head>
+
+<body>
+    <style>
+        td,
+        th {
+            border: 1px solid black;
+            padding: 0.25em;
+        }
+        
+        caption {
+            font-weight: bold;
+            text-align: left;
+        }
+    </style>
+    <h1>Data table Rule 1: Table D: Simple Table is 4x4 data table with some headers</h1>
+
+    <table>
+        <caption>4 by 4 data table some headers</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Header D1c</th>
+                <th>Header D2c</th>
+                <th>Header D3c</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tr>
+            <th>Header D1r</th>
+            <td class="TABLE_1_PASS">Data Cell D11</td>
+            <td class="TABLE_1_PASS">Data Cell D12</td>
+            <td class="TABLE_1_PASS">Data Cell D13</td>
+            <td class="TABLE_1_PASS">Data Cell D14</td>
+        </tr>
+        <tr>
+            <th>Header D2r</th>
+            <td class="TABLE_1_PASS">Data Cell D21</td>
+            <td class="TABLE_1_PASS">Data Cell D22</td>
+            <td class="TABLE_1_PASS">Data Cell D23</td>
+            <td class="TABLE_1_PASS">Data Cell D24</td>
+        </tr>
+        <tr>
+            <th></th>
+            <td class="TABLE_1_PASS">Data Cell D31</td>
+            <td class="TABLE_1_PASS">Data Cell D32</td>
+            <td class="TABLE_1_PASS">Data Cell D33</td>
+            <td class="TABLE_1_FAIL">Data Cell D34</td>
+        </tr>
+        <tr>
+            <th>Header D4r</th>
+            <td class="TABLE_1_PASS">Data Cell D41</td>
+            <td class="TABLE_1_PASS">Data Cell D42</td>
+            <td class="TABLE_1_PASS">Data Cell D43</td>
+            <td class="TABLE_1_PASS">Data Cell D44</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

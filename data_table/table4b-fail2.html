@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Table Rule 4: Table C: Duplicate Accessible Names</title>
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-8">
+</head>
+
+<body>
+    <style>
+        td,
+        th {
+            border: 1px solid black;
+            padding: 0.25em;
+        }
+        
+        caption {
+            font-weight: bold;
+            text-align: left;
+        }
+    </style>
+    <div role="main">
+
+        <h1>Data Table Rule 4: Table C: Duplicate Accessible Names</h1>
+
+        <h2>Table C1: Duplicate Accessible Names</h3>
+
+            <table class="TABLE_4_FAIL" summary="Table C">
+                <thead>
+                    <tr>
+                        <th colspan="2">Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data Cell 11</td>
+                        <td>Data Cell 12</td>
+                        <td>Data Cell 13</td>
+                    </tr>
+                    <tr>
+                        <td>Data Cell 21</td>
+                        <td>Data Cell 22</td>
+                        <td>Data Cell 23</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Table C2: Duplicate Accessible Names</h3>
+
+                <table class="TABLE_4_FAIL" title=" TablE  C">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Header 1</th>
+                            <th>Header 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data Cell 11</td>
+                            <td>Data Cell 12</td>
+                            <td>Data Cell 13</td>
+                        </tr>
+                        <tr>
+                            <td>Data Cell 21</td>
+                            <td>Data Cell 22</td>
+                            <td>Data Cell 23</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+    </div>
+
+</body>
+
+</html>

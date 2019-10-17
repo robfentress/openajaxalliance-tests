@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Table Rule 3: TABLE 4: Complex Data Table with Accessible Description</title>
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-8">
+</head>
+
+<body>
+    <style>
+        td,
+        th {
+            border: 1px solid black;
+            padding: 0.25em;
+        }
+        
+        caption {
+            font-weight: bold;
+            text-align: left;
+        }
+    </style>
+    <div role="main">
+
+        <h1>Data Table Rule 3: TABLE 4: Complex Data Table with Accessible Description</h1>
+
+        <p id="id_table_4_desc">Description of large data table 1</p>
+
+        <table class="TABLE_3_PASS" aria-describedby="id_table_4_desc">
+            <caption>Table 4: Complex Table</caption>
+            <thead>
+                <tr>
+                    <th id="id_t3_hg1" colspan="2">Header Group 1</th>
+                    <th id="id_t3_hg2" colspan="2">Header Group 2</th>
+                    <th id="id_t3_hg3" colspan="2">Header Group 3</th>
+                    <th id="id_t3_hg4" colspan="2">Header Group 4</th>
+                </tr>
+                <tr>
+                    <th id="id_t3_h1">Header 1</th>
+                    <th id="id_t3_h1">Header 2</th>
+                    <th id="id_t3_h1">Header 3</th>
+                    <th id="id_t3_h1">Header 4</th>
+                    <th id="id_t3_h1">Header 5</th>
+                    <th id="id_t3_h1">Header 6</th>
+                    <th id="id_t3_h1">Header 7</th>
+                    <th id="id_t3_h1">Header 8</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td headers="id_t3_hg1 id_t3_h1">Data Cell 11</td>
+                    <td headers="id_t3_hg1 id_t3_h2">Data Cell 12</td>
+                    <td headers="id_t3_hg2 id_t3_h3">Data Cell 13</td>
+                    <td headers="id_t3_hg2 id_t3_h4">Data Cell 14</td>
+                    <td headers="id_t3_hg3 id_t3_h5">Data Cell 15</td>
+                    <td headers="id_t3_hg3 id_t3_h6">Data Cell 16</td>
+                    <td headers="id_t3_hg4 id_t3_h7">Data Cell 17</td>
+                    <td headers="id_t3_hg4 id_t3_h8">Data Cell 18</td>
+                </tr>
+                <tr>
+                    <td headers="id_t3_hg1 id_t3_h1">Data Cell 21</td>
+                    <td headers="id_t3_hg1 id_t3_h2">Data Cell 22</td>
+                    <td headers="id_t3_hg2 id_t3_h3">Data Cell 23</td>
+                    <td headers="id_t3_hg2 id_t3_h4">Data Cell 24</td>
+                    <td headers="id_t3_hg3 id_t3_h5">Data Cell 25</td>
+                    <td headers="id_t3_hg3 id_t3_h6">Data Cell 26</td>
+                    <td headers="id_t3_hg4 id_t3_h7">Data Cell 27</td>
+                    <td headers="id_t3_hg4 id_t3_h8">Data Cell 28</td>
+                </tr>
+                <tr>
+                    <td headers="id_t3_hg1 id_t3_h1">Data Cell 31</td>
+                    <td headers="id_t3_hg1 id_t3_h2">Data Cell 32</td>
+                    <td headers="id_t3_hg2 id_t3_h3">Data Cell 33</td>
+                    <td headers="id_t3_hg2 id_t3_h4">Data Cell 34</td>
+                    <td headers="id_t3_hg3 id_t3_h5">Data Cell 35</td>
+                    <td headers="id_t3_hg3 id_t3_h6">Data Cell 36</td>
+                    <td headers="id_t3_hg4 id_t3_h7">Data Cell 37</td>
+                    <td headers="id_t3_hg4 id_t3_h8">Data Cell 38</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
