@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Table Rule 8: TABLE D: Accessible Name and Description Different</title>
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-8">
+</head>
+
+<body>
+    <style>
+        td,
+        th {
+            border: 1px solid black;
+            padding: 0.25em;
+        }
+        
+        caption {
+            font-weight: bold;
+            text-align: left;
+        }
+    </style>
+    <div role="main">
+
+        <h1>Data Table Rule 8: TABLE D: Accessible Name and Description Different</h1>
+
+        <table class="TABLE_8_PASS" aria-label="TABLE D: Accessible Name" summary="TABLE D: Accessible Description">
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                    <th>Header 4</th>
+                    <th>Header 5</th>
+                    <th>Header 6</th>
+                    <th>Header 7</th>
+                    <th>Header 8</th>
+                </tr>
+            </thead>
+            <tr>
+                <th rowspan="2">Header Cell 1</th>
+                <th>Header 11</th>
+                <td>Data Cell 12</td>
+                <td>Data Cell 13</td>
+                <td>Data Cell 14</td>
+                <td>Data Cell 15</td>
+                <td>Data Cell 16</td>
+                <td>Data Cell 17</td>
+            </tr>
+            <tr>
+                <th>Header 21</th>
+                <td>Data Cell 22</td>
+                <td>Data Cell 23</td>
+                <td>Data Cell 24</td>
+                <td>Data Cell 25</td>
+                <td>Data Cell 26</td>
+                <td>Data Cell 27</td>
+            </tr>
+        </table>
+
+
+    </div>
+
+</body>
+
+</html>
